@@ -1,0 +1,8 @@
+service: "service:DiffusionAPI"
+labels:
+  owner: raid-team
+  project: diffusion
+include:
+  - "*.py"
+python:
+  requirements_txt: requirements.txt
